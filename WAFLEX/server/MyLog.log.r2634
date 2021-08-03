@@ -1,0 +1,2725 @@
+2021-04-19 09:05:57,496 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:05:59,933 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:05:59,978 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:06:01,908 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:06:03,121 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:06:06,110 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:06:07,150 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:06:09,870 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:06:09,886 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:06:10,861 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:06:50,900 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:07:03,531 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:07:08,614 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:07:08,644 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:07:09,351 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:07:11,904 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:07:15,715 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:07:16,469 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:07:18,891 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:07:18,915 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:07:20,906 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:07:29,080 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:08:10,091 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:08:10,134 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:08:11,730 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:08:13,599 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:08:13,710 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:08:15,604 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:08:22,242 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:10:48,333 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:10:49,242 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:10:51,437 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:10:51,490 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:10:52,559 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:10:54,777 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:11:11,998 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:11:12,709 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:11:14,732 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:11:14,769 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:11:15,459 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:11:16,970 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:12:49,085 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:12:50,524 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:12:52,631 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:12:56,302 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:12:56,357 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:12:57,182 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:13:01,711 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:13:08,888 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:13:08,930 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:13:09,753 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:13:12,257 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:13:45,198 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:13:47,714 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:13:47,726 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:13:48,433 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:13:51,071 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:14:08,952 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:14:09,585 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:14:12,783 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:14:12,836 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:14:13,588 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:14:18,844 - MyLog - DEBUG - 
+insert into comm (bbs_no, comm_no, user_id, content, likes, dislike, in_date, in_user_id, up_date, up_user_id)
+values (:1, comm_seq.nextval, :2, :3, 0, 0, to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS'), :4, to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS'), :5)
+2021-04-19 09:14:20,795 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:14:24,128 - MyLog - DEBUG - 161
+2021-04-19 09:14:24,129 - MyLog - DEBUG - 1
+2021-04-19 09:14:24,129 - MyLog - DEBUG - y
+2021-04-19 09:14:24,129 - MyLog - DEBUG - merge into commlike
+        using dual
+            on(comm_no = 161 and user_id = 1) 
+        when matched then
+            update set  like_yn        = 'y',
+                        up_date        = to_char(sysdate, 'yyyy-mm-dd.hh24:mi:ss'),
+                        up_user_id     = 1
+        when not matched then
+             insert (               comm_no,
+                                    user_id, 
+                                    like_yn,  
+                                    in_date, 
+                                    in_user_id, 
+                                    up_date,
+                                    up_user_id) 
+                        values ( 161, 
+                                 1,
+                                 'y',
+                                 to_char(sysdate, 'yyyy-mm-dd.hh24:mi:ss'),
+                                 1,
+                                 to_char(sysdate, 'yyyy-mm-dd.hh24:mi:ss'),
+                                 1)
+                                 
+2021-04-19 09:14:24,949 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:16:26,613 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:16:26,639 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:16:27,358 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:16:30,195 - MyLog - DEBUG - 161
+2021-04-19 09:16:30,195 - MyLog - DEBUG - 1
+2021-04-19 09:16:30,195 - MyLog - DEBUG - n
+2021-04-19 09:16:30,196 - MyLog - DEBUG - merge into commlike
+        using dual
+            on(comm_no = 161 and user_id = 1) 
+        when matched then
+            update set  like_yn        = 'n',
+                        up_date        = to_char(sysdate, 'yyyy-mm-dd.hh24:mi:ss'),
+                        up_user_id     = 1
+        when not matched then
+             insert (               comm_no,
+                                    user_id, 
+                                    like_yn,  
+                                    in_date, 
+                                    in_user_id, 
+                                    up_date,
+                                    up_user_id) 
+                        values ( 161, 
+                                 1,
+                                 'n',
+                                 to_char(sysdate, 'yyyy-mm-dd.hh24:mi:ss'),
+                                 1,
+                                 to_char(sysdate, 'yyyy-mm-dd.hh24:mi:ss'),
+                                 1)
+                                 
+2021-04-19 09:16:30,764 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:16:44,071 - MyLog - DEBUG - 
+delete
+from comm
+where comm_no=:1
+2021-04-19 09:16:44,557 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:16:51,278 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:16:53,053 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:16:53,093 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:16:53,733 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:16:56,423 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:17:10,047 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:17:10,588 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:17:12,852 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:17:12,870 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:17:13,699 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:17:16,033 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:17:26,223 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:17:26,241 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:17:27,257 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:17:30,600 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:17:37,370 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:17:38,509 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:17:45,850 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:17:45,910 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:17:46,959 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:17:48,282 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:18:31,664 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:18:31,690 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:18:32,412 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:20:41,197 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:20:59,180 - MyLog - DEBUG - 
+insert into bbs (bbs_no, user_id, title, content, attach_file, attach_path, rdcnt, writer, in_date, in_user_id, up_date, up_user_id)
+values (bbs_seq.nextval, :1, :2, :3, :4, :5, 0, :6, to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS'), :7, to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS'), :8)
+2021-04-19 09:20:59,878 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:21:31,400 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:21:31,447 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:21:32,349 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:21:36,866 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+2021-04-19 09:22:11,414 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 09:22:34,974 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:22:35,002 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:22:35,653 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:22:37,743 - MyLog - DEBUG - 
+delete
+from comm
+where bbs_no = :1
+2021-04-19 09:22:38,247 - MyLog - DEBUG - 
+delete
+from bbs
+where bbs_no = :1
+2021-04-19 09:22:39,859 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 09:22:46,768 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:22:46,809 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:22:47,714 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:22:48,845 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:22:54,638 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:22:55,243 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 09:25:55,958 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 09:25:58,873 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:25:59,326 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:26:01,069 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:26:25,458 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:26:25,486 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:26:26,208 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:26:30,277 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:26:52,319 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:26:52,342 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:26:53,153 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:26:55,180 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:28:12,539 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:31:09,393 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:40:08,485 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:40:08,758 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:42:14,504 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:42:16,839 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:42:17,594 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 09:42:20,094 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:42:20,161 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:42:21,021 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:42:24,157 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:42:28,836 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:42:29,859 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 09:45:01,833 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 09:45:06,209 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:45:06,235 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:45:06,994 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:45:07,946 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:58:47,407 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 09:58:49,610 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:58:49,656 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 09:58:50,346 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 09:58:52,284 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 09:58:54,374 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:00:26,919 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:03:05,362 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:03:12,415 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:03:16,970 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:03:17,006 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:03:17,826 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 10:03:20,338 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 10:03:23,710 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:03:23,738 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:03:24,459 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 10:03:58,458 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:03:58,507 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:03:59,198 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 10:04:01,006 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:04:06,382 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:04:30,115 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:04:36,195 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:04:49,062 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:04:52,084 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:05:12,039 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:05:13,718 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:05:15,556 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:05:15,612 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:05:16,317 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 10:05:18,875 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:06:35,359 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:06:35,409 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:06:36,871 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 10:06:40,144 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:08:01,254 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:08:04,884 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:08:04,940 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:08:05,563 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 10:08:20,231 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:08:24,640 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:08:24,691 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:08:25,319 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 10:08:34,254 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:10:05,561 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:10:45,675 - MyLog - DEBUG - 
+update bbs
+set user_id = :1,
+    title = :2,
+    content = :3,
+    attach_file = :4,
+    attach_path = :5,
+    up_date = to_char(sysdate, 'YYYY-MM-DD.HH24:MI:SS')
+where bbs_no = :6
+2021-04-19 10:11:30,799 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:11:30,841 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:11:31,549 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
+2021-04-19 10:11:34,064 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+order by in_date
+2021-04-19 10:11:36,122 - MyLog - DEBUG - 
+select bbs_no,
+       user_id,
+       title,
+       content,
+       attach_file,
+       attach_path,
+       rdcnt,
+       writer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from bbs
+where bbs_no = :1
+2021-04-19 10:11:36,174 - MyLog - DEBUG - 
+update bbs
+set rdcnt = rdcnt + 1
+where bbs_no = :1
+2021-04-19 10:11:37,100 - MyLog - DEBUG - 
+select bbs_no,
+       comm_no,
+       user_id,
+       content,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'y') likes,
+
+  (select count(*)
+   from commlike
+   where comm_no = d.comm_no
+     and like_yn = 'n') dislike,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from comm d
+where bbs_no = :1
